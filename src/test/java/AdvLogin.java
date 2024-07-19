@@ -20,7 +20,7 @@ public class AdvLogin {
         @Before
         public void setup() {
 
-        System.setProperty("webdriver.chrome.driver" , "C:\\Users\\victo\\Downloads\\chromedriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver" , "C:\\Users\\victo\\chromedriver\\chromedriver\\chromedriver-win64\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
         navegador = new ChromeDriver();
@@ -64,11 +64,11 @@ public class AdvLogin {
             Thread.sleep(5000);
 
             //Usuário
-            String user = ("SRTestBox64");
+            String user = ("SRTestBox2");
             navegador.findElement(By.xpath("/html/body/login-modal/div/div/div[3]/sec-form/sec-view[1]/div/input")).sendKeys(user);
 
             //Senha
-            String senha = ("Bmth10");
+            String senha = ("Bmth10!");
             navegador.findElement(By.xpath("/html/body/login-modal/div/div/div[3]/sec-form/sec-view[2]/div/input")).sendKeys(senha);
 
             Thread.sleep(3000);

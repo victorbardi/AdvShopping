@@ -1,4 +1,4 @@
-mai. 08, 2024 4:08:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 124
+jul. 19, 2024 7:58:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
 
- LoginSRTestBox64 feito com sucesso! Teste finalizado!
+ LoginSRTestBox2 feito com sucesso! Teste finalizado!
